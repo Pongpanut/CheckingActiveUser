@@ -1,0 +1,27 @@
+{
+  "name": "enquiryactiveuser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "googleapis": "^23.0.0",
+    "opn": "^5.1.0"
+  },
+  "devDependencies": {
+    "grunt": "0.4.*",
+    "grunt-aws-lambda": "0.*.*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pongpanut/CheckingActiveUser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pongpanut/CheckingActiveUser/issues"
+  },
+  "homepage": "https://github.com/Pongpanut/CheckingActiveUser#readme"
+}
