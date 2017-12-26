@@ -4,8 +4,7 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
-    "googleapis": "^23.0.0",
-    "opn": "^5.1.0"
+    "googleapis": "^23.0.0"
   },
   "devDependencies": {
     "grunt": "0.4.*",
