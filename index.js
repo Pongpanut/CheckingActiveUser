@@ -27,7 +27,11 @@ exports.handler = function (event, context, callback) {
             console.log(err);
             return;
           }
-          let currentActiveUser = response.rows[0];
+
+          let currentActiveUser = 0;
+          if((typeof response !== 'undefined' && response !== null ) && (typeof response.rows[0] !== 'undefined' && response.rows[0] !== null)){
+            currentActiveUser = response.rows[0];
+          }
           console.log("Current sctive user : "+currentActiveUser);
           if(currentActiveUser > 200){
             console.log('Current active user more than 200');
